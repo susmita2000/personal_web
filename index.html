@@ -1,0 +1,656 @@
+		<html>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<style type="text/css">
+		
+		body {
+		  margin: 0;
+		  overflow-x: hidden;
+		  width: 100%;
+		  height: 285%;
+		  
+		  background: black;
+		  background: linear-gradient(to top, #000000 0%, #5788fe 100%);
+          background-attachment: fixed;
+		}
+		
+		.filter {
+		  width: 100%;
+		  height: 285%;
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  background:  #fe5757;
+		  animation: colorChange 30s ease-in-out infinite;
+		  animation-fill-mode: both;
+		  mix-blend-mode: overlay;
+
+		}
+		.conta {
+  position: fixed;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  width: 100vw;
+  top: 20%;
+  font-size: 24px;
+}
+
+
+
+
+
+		#section1 {padding-top:50px;height:500px;color: #fff; background-color: rgba(0,0,0,0);width: 95% ;margin-top:2%;box-shadow: -1px 9px 26px 0px rgba(0,0,0,0.75);border-radius: 40px;}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: rgba(0,0,0,0);margin-top: 10%;width: 95%;box-shadow: -1px 9px 26px 0px rgba(0,0,0,0.75);border-radius: 40px;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: rgba(0,0,0,0);margin-top: 10%;width: 95%;box-shadow: -1px 9px 26px 0px rgba(0,0,0,0.75);border-radius: 40px;}
+		@keyframes colorChange {
+		  0%,
+		  100% {
+		    opacity: 0.1;
+		  }
+		  50% {
+		    opacity: .3;
+		  }
+		}
+
+
+
+.footer-distributed{
+	background: #1a1a1a;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left;
+	padding: 50px 60px 40px;
+	overflow: hidden;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #ccc;
+  height: 60vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	float: left;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Roboto', cursive;
+	margin: 0 0 10px;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer social icons */
+
+.footer-distributed .footer-icons{
+	margin-top: 40px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+.footer-distributed .footer-right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: #ffffff;
+}
+
+/* The contact form */
+
+.footer-distributed form{
+	display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+
+	width: 400px;
+	padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+	color:  #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+	color:  #5c666b;
+	opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+
+.footer-distributed form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.footer-distributed form textarea{
+	height: 70px;
+	margin-bottom: 20px;
+}
+
+.footer-distributed form button{
+	border-radius: 3px;
+	background-color:  #33383b;
+	color: #ffffff;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+	float: right;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+
+	.footer-distributed {
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-distributed form input,
+	.footer-distributed form textarea{
+		width: 250px;
+	}
+
+	.footer-distributed form button{
+		padding: 10px 35px;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	.footer-distributed{
+		padding: 30px;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footer-distributed .footer-left{
+		margin-bottom: 40px;
+	}
+
+	.footer-distributed form{
+		margin-top: 30px;
+	}
+
+	.footer-distributed form{
+		display: block;
+	}
+
+	.footer-distributed form button{
+		float: none;
+	}
+}
+     .card 
+     {
+     	background-color: rgba(255,255,255,0.5);
+     }
+     .card:hover
+     {
+     	background-color: #1a1a1a;
+     	transition: 0.8s ;
+
+     }
+
+
+
+
+	
+		
+		</style>
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.2/dat.gui.js"></script>     
+    <head >
+<nav class="navbar navbar-inverse" style="z-index: 80;position: fixed;width: 100%;margin-bottom: 5%;">
+  <div class="container-fluid" >
+    <div class="navbar-header " >
+      <a class="navbar-brand" href="#">Hey there ! Welcome to my page. Keep scrolling to know more about me...</a>
+    </div>
+    <ul class="nav navbar-nav">
+      
+      
+    </ul>
+  </div>
+</nav>
+</head>
+<body>
+<div class="landscape"></div>
+<div class="filter" ></div>
+
+<canvas id="canvas"  >
+
+</canvas>
+<div class="conta"  style="position: absolute;top: 10%;">
+	
+<div id="section1" class="container-fluid" style="z-index: 50;">
+  <div class="row">
+    <div class="col-sm-6" style="margin-top: 5%;font-weight: 400;font-family: cursive;">
+Hey! I am Susmita, a pre-final yearite at IIT Kharagpur, majoring in Electronics and Electrical Communication Engineering . My areas of interest include Machine learning and Web Development. I have a myriad of hobbies , dancing, watching web series and swimming being some of them. My wanderlust often carries my mind to exotic places around the globe which I hope to visit once I make enough money.
+    </div>
+    <div class="col-sm-6">
+      <img src="port2.jpeg" alt="pic" style="width: 40%;border-radius: 50%;">   
+    </div>
+  </div>
+</div>
+  
+
+
+
+<div id="section2" class="container-fluid" style="z-index: 50;position: relative;bottom: 0;">
+  <h1 style="font-size: 8vh;">My Skills</h1>
+  <center><i class="fa fa-cog fa-spin" style="font-size:5.5vh"></i></center>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-top:5%;">
+    <!-- Indicators -->
+    <ol class="carousel-indicators" style="position: relative;bottom:  10%;">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+      	<center>
+         <div class="row" style="width: 95%;">
+    <div class="col-sm-3" ><i class='fab fa-html5' style='font-size:17vh;'></i></div>
+    <div class="col-sm-3" ><i class='fab fa-css3' style='font-size:17vh;'></i></div>
+    <div class="col-sm-3"><i class='fab fa-php' style='font-size:17vh;'></i></div>
+    <div class="col-sm-3"><i class='fab fa-js' style='font-size:17vh;'></i></div>
+  </div>
+</center>
+
+
+
+      </div>
+
+      <div class="item">
+       <center><div class="row" style="width: 95%;">
+          <div class="col-sm-3" ><i class='fab fa-react' style='font-size:17vh;'></i></div>
+    <div class="col-sm-3" ><i class='fab fa-python' style='font-size:17vh;'></i></div>
+    <div class="col-sm-3"><i class='fab fa-github' style='font-size:17vh;'></i></div>
+    <div class="col-sm-3"><i class='fab fa-java' style='font-size:17vh;'></i></div>
+  </div></center>
+      </div>
+    
+   
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
+
+
+
+
+
+<div id="section3" class="container-fluid" style="z-index: 50;">
+  <h1>My Recent Works</h1>
+  <center><i class='fas fa-tools' style='font-size:5.5vh'></i></center>
+  <div class="row" style="font-weight: 400;">
+  <div class="col-sm-4" >
+  <div class="card ">
+      <div class="card-body text-center" style="height: 55%;">
+      	<h2 style="background-color: #1a1a1a;">Web Development</h2>
+        <p class="card-text" style="font-size: 18px;">Being a part of Spring Fest Web Team, I developed the Nation Wide Prelims website for Spring Fest 2020 for the registration of participants of other colleges in various cultural events.I also designed and developed the online treasure hunt event, Labyrinth held during Spring Fest 2020 .
+</p>
+      </div>
+    </div>
+</div>
+  <div class="col-sm-4" >
+  <div class="card "  >
+      <div class="card-body text-center" style="height: 55%;">
+      	<h2 style="background-color: #1a1a1a;"> Data Analytics</h2>
+        <p class="card-text" style="font-size: 18px;">I was a part of the bronze winning team of Data Analytics,Technology General Championship 2020, IIT Kharagpur.The problem statement required meter reading prediction of some corporate buildings from meter readings of previous 8 months.After processing the data and developing new features,we used ensemble models and LSTM for prediction. </p>
+      </div>
+    </div>
+</div>
+  <div class="col-sm-4" >
+  <div class="card ">
+      <div class="card-body text-center" style="height: 55%;">
+      	<h2 style="background-color: #1a1a1a;">Deep Learning</h2>
+        <p class="card-text" style="font-size: 18px;">The objective of this project is accelerating virtual screening of drugs for SARS-CoV-2 and developing novel variations of existing drugs by leveraging artificial intelligence and Cheminformatics packages developed in python like RDKit , DeepChem and PubChempy.</p>
+      </div>
+    </div>
+</div>
+</div>
+ 
+</div>
+<div class="contact" style="background-color: transparent;height: 100px;margin-top: 3%;">
+	
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3 style="margin-bottom: 10%;">Made with love <i class="fa fa-heart" aria-hidden="true"></i></h3>
+				
+				<a href="#"><i class='fa fa-facebook-square' style='font-size:8.5vh;margin-right: 10%;'></i></a>
+					
+					<a href="#"><i class="fa fa-linkedin" style='font-size:8.5vh;margin-right: 10%;'></i></a>
+					<a href="#"><i class="fa fa-github" style='font-size:8.5vh;margin-right: 10%;'></i></a>
+
+				</div>
+
+			<div class="footer-right">
+
+				<h3>Contact Me</h3>
+
+				<form action="#" method="post">
+
+					<input type="text" name="email" placeholder="Email">
+					<textarea name="message" placeholder="Message"></textarea>
+					<button>Send</button>
+
+				</form>
+
+			</div>
+
+		</footer>
+	</div>
+</div>
+
+</body>
+</html>
+		
+<script type="text/javascript">
+	function Star(id, x, y){
+	this.id = id;
+	this.x = x;
+	this.y = y;
+	this.r = Math.floor(Math.random()*2)+1;
+	var alpha = (Math.floor(Math.random()*10)+1)/10/2;
+	this.color = "rgba(255,255,255,"+alpha+")";
+}
+
+Star.prototype.draw = function() {
+	ctx.fillStyle = this.color;
+	ctx.shadowBlur = this.r * 2;
+	ctx.beginPath();
+	ctx.arc(this.x, this.y, this.r, 0, 2 * Math.PI, false);
+	ctx.closePath();
+	ctx.fill();
+}
+
+Star.prototype.move = function() {
+	this.y -= .15 + params.backgroundSpeed/100;
+	if (this.y <= -10) this.y = HEIGHT + 10;
+	this.draw();
+}
+
+
+function Dot(id, x, y, r) {
+	this.id = id;
+	this.x = x;
+	this.y = y;
+	this.r = Math.floor(Math.random()*5)+1;
+	this.maxLinks = 2;
+	this.speed = .5;
+	this.a = .5;
+	this.aReduction = .005;
+	this.color = "rgba(255,255,255,"+this.a+")";
+	this.linkColor = "rgba(255,255,255,"+this.a/4+")";
+
+	this.dir = Math.floor(Math.random()*140)+200;
+}
+
+Dot.prototype.draw = function() {
+	ctx.fillStyle = this.color;
+	ctx.shadowBlur = this.r * 2;
+	ctx.beginPath();
+	ctx.arc(this.x, this.y, this.r, 0, 2 * Math.PI, false);
+	ctx.closePath();
+	ctx.fill();
+}
+
+Dot.prototype.link = function() {
+	if (this.id == 0) return;
+	var previousDot1 = getPreviousDot(this.id, 1);
+	var previousDot2 = getPreviousDot(this.id, 2);
+	var previousDot3 = getPreviousDot(this.id, 3);
+	if (!previousDot1) return;
+	ctx.strokeStyle = this.linkColor;
+	ctx.moveTo(previousDot1.x, previousDot1.y);
+	ctx.beginPath();
+	ctx.lineTo(this.x, this.y);
+	if (previousDot2 != false) ctx.lineTo(previousDot2.x, previousDot2.y);
+	if (previousDot3 != false) ctx.lineTo(previousDot3.x, previousDot3.y);
+	ctx.stroke();
+	ctx.closePath();
+}
+
+function getPreviousDot(id, stepback) {
+	if (id == 0 || id - stepback < 0) return false;
+	if (typeof dots[id - stepback] != "undefined") return dots[id - stepback];
+	else return false;//getPreviousDot(id - stepback);
+}
+
+Dot.prototype.move = function() {
+	this.a -= this.aReduction;
+	if (this.a <= 0) {
+		this.die();
+		return
+	}
+	this.color = "rgba(255,255,255,"+this.a+")";
+	this.linkColor = "rgba(255,255,255,"+this.a/4+")";
+	this.x = this.x + Math.cos(degToRad(this.dir))*(this.speed+params.dotsSpeed/100),
+	this.y = this.y + Math.sin(degToRad(this.dir))*(this.speed+params.dotsSpeed/100);
+    
+	this.draw();
+	this.link();
+}
+
+Dot.prototype.die = function() {
+    dots[this.id] = null;
+    delete dots[this.id];
+}
+
+
+var canvas  = document.getElementById('canvas'),
+	ctx = canvas.getContext('2d'),
+	WIDTH,
+	HEIGHT,
+	mouseMoving = false,
+	mouseMoveChecker,
+	mouseX,
+	mouseY,
+	stars = [],
+	initStarsPopulation = 80,
+	dots = [],
+	dotsMinDist = 2,
+	params = {
+		maxDistFromCursor: 50,
+		dotsSpeed: 0,
+		backgroundSpeed: 0
+	};
+
+var gui;
+
+
+setCanvasSize();
+init();
+
+function setCanvasSize() {
+	WIDTH = document.documentElement.clientWidth,
+    HEIGHT = document.documentElement.clientHeight*1;                      
+
+	canvas.setAttribute("width", WIDTH);
+	canvas.setAttribute("height", HEIGHT);
+}
+
+function init() {
+	ctx.strokeStyle = "white";
+	ctx.shadowColor = "white";
+	for (var i = 0; i < initStarsPopulation; i++) {
+		stars[i] = new Star(i, Math.floor(Math.random()*WIDTH), Math.floor(Math.random()*HEIGHT));
+		//stars[i].draw();
+	}
+	ctx.shadowBlur = 0;
+	animate();
+}
+
+function animate() {
+    ctx.clearRect(0, 0, WIDTH, HEIGHT);
+
+    for (var i in stars) {
+    	stars[i].move();
+    }
+    for (var i in dots) {
+    	dots[i].move();
+    }
+    drawIfMouseMoving();
+    requestAnimationFrame(animate);
+}
+
+window.onmousemove = function(e){
+	mouseMoving = true;
+	mouseX = e.clientX;
+	mouseY = e.clientY;
+	clearInterval(mouseMoveChecker);
+	mouseMoveChecker = setTimeout(function() {
+		mouseMoving = false;
+	}, 100);
+}
+
+
+function drawIfMouseMoving(){
+	if (!mouseMoving) return;
+
+	if (dots.length == 0) {
+		dots[0] = new Dot(0, mouseX, mouseY);
+		dots[0].draw();
+		return;
+	}
+
+	var previousDot = getPreviousDot(dots.length, 1);
+	var prevX = previousDot.x; 
+	var prevY = previousDot.y; 
+
+	var diffX = Math.abs(prevX - mouseX);
+	var diffY = Math.abs(prevY - mouseY);
+
+	if (diffX < dotsMinDist || diffY < dotsMinDist) return;
+
+	var xVariation = Math.random() > .5 ? -1 : 1;
+	xVariation = xVariation*Math.floor(Math.random()*params.maxDistFromCursor)+1;
+	var yVariation = Math.random() > .5 ? -1 : 1;
+	yVariation = yVariation*Math.floor(Math.random()*params.maxDistFromCursor)+1;
+	dots[dots.length] = new Dot(dots.length, mouseX+xVariation, mouseY+yVariation);
+	dots[dots.length-1].draw();
+	dots[dots.length-1].link();
+}
+//setInterval(drawIfMouseMoving, 17);
+
+function degToRad(deg) {
+	return deg * (Math.PI / 180);
+}
+
+
+
+</script>
